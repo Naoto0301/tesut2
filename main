@@ -1,0 +1,7 @@
+echo "# tesut2" >> README.md 
+git init 
+git add README.md 
+git commit -m "最初のコミット" 
+git branch -M main 
+git remote add origin git@github.com:Naoto0301/tesut2.git
+ git push -u origin main
